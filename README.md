@@ -5,7 +5,7 @@ A simple library for creating custom keyboard shortcuts (or "easter eggs") for y
 ## Usage
 First, include the script in your HTML File.
 
-```<script src="https://raw.githubusercontent.com/Wuemeli/Egg.js/main/egg.js"></script>```
+```<script src="https://cdn.jsdelivr.net/gh/wuemeli/egg.js/egg.min.js"></script>```
 
 Then, create a new instance of the EasterEgg class:
 
