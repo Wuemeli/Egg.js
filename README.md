@@ -1,8 +1,8 @@
-## Egg.js
+# Egg.js
 
 A simple library for creating custom keyboard shortcuts (or "easter eggs") for your web pages.
 
-# Usage
+## Usage
 First, include the script in your HTML File.
 
 ```<script src="https://raw.githubusercontent.com/Wuemeli/Egg.js/main/egg.js"></script>```
@@ -21,17 +21,17 @@ easterEgg.addEgg([38, 38, 40, 40, 37, 39, 37, 39, 66, 65], () => {
 ```
 You can add as many eggs as you want and customize it as per your requirement.
 
-## API
+# API
 # EasterEgg()
 Creates a new instance of the Easter Egg library.
 
-# addEgg(keys, fn)
+## addEgg(keys, fn)
 Adds a new easter egg to the library. keys is an array of key codes, representing the key sequence that should trigger the easter egg. fn is the callback function that will be executed when the key sequence is entered.
 
-# handleEvent(e)
+## handleEvent(e)
 Handles the keydown event, it checks if the key pressed is not in ignored keys and if the entered keys match any egg key sequence.
 
-# ignoredKeys
+## ignoredKeys
 An array of key codes that will be ignored by the library. By default, the shift key (code 16) is ignored.
 
 ## Example
@@ -45,5 +45,5 @@ easterEgg.addEgg([38, 38, 40, 40, 37, 39, 37, 39, 66, 65], () => {
 
 This example creates a new instance of the EasterEgg class, and then adds an egg that listens for the Konami code (up, up, down, down, left, right, left, right, B, A) and when the user presses that sequence of keys, the function passed to the addEgg method will be invoked.
 
-## Note
+# Note
 This library only handle keydown event, so you will not be able to use it for sequence of keys that involve keyup or keypress events.
