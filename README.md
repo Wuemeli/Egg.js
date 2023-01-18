@@ -1,4 +1,4 @@
-##Egg.js
+# Egg.js
 
 A simple library for creating custom keyboard shortcuts (or "easter eggs") for your web pages.
 
