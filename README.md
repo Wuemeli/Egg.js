@@ -1,11 +1,11 @@
-# Egg.js
+## Egg.js
 
 A simple library for creating custom keyboard shortcuts (or "easter eggs") for your web pages.
 
-Usage
-First, include the ```easter-egg.js``` file in your HTML file.
+# Usage
+First, include the script in your HTML File.
 
-```<script src="easter-egg.js"></script>```
+```<script src="https://raw.githubusercontent.com/Wuemeli/Egg.js/main/egg.js"></script>```
 
 Then, create a new instance of the EasterEgg class:
 
