@@ -32,11 +32,14 @@ ignoredKeys
 An array of key codes that will be ignored by the library. By default, the shift key (code 16) is ignored.
 
 Example
-Copy code
+
+``
 const easterEgg = new EasterEgg();
 easterEgg.addEgg([38, 38, 40, 40, 37, 39, 37, 39, 66, 65], () => {
   console.log("Konami code!");
 });
+``
+
 This example creates a new instance of the EasterEgg class, and then adds an egg that listens for the Konami code (up, up, down, down, left, right, left, right, B, A) and when the user presses that sequence of keys, the function passed to the addEgg method will be invoked.
 
 Note
