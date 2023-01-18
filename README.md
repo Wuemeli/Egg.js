@@ -2,20 +2,22 @@
 A simple library for creating custom keyboard shortcuts (or "easter eggs") for your web pages.
 
 Usage
-First, include the easter-egg.js file in your HTML file.
+First, include the ```easter-egg.js``` file in your HTML file.
 
-Copy code
-<script src="easter-egg.js"></script>
+```<script src="easter-egg.js"></script>```
+
 Then, create a new instance of the EasterEgg class:
 
-Copy code
-const easterEgg = new EasterEgg();
+```const easterEgg = new EasterEgg();```
+
 You can now add easter eggs using the addEgg method. The method takes two arguments: an array of key codes representing the key sequence, and a callback function to be executed when the key sequence is entered:
 
-Copy code
+
+```
 easterEgg.addEgg([38, 38, 40, 40, 37, 39, 37, 39, 66, 65], () => {
   console.log("Konami code entered!");
 });
+```
 You can add as many eggs as you want and customize it as per your requirement.
 
 API
