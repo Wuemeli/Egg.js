@@ -28,10 +28,21 @@ Creates a new instance of the Easter Egg library.
 ## addEgg(keys, fn)
 Adds a new easter egg to the library. keys is an array of key codes, representing the key sequence that should trigger the easter egg. fn is the callback function that will be executed when the key sequence is entered.
 
+## removeEgg(keys)
+Removes the egg with the specified key sequence
+
+## clearEggs()
+Removes all eggs 
+
+## hasEgg(keys)
+Checks if a specific egg exists with the key sequence
+
+## executeEgg(keys)
+Executes the egg with the specified key sequence
 ## handleEvent(e)
 Handles the keydown event, it checks if the key pressed is not in ignored keys and if the entered keys match any egg key sequence.
 
-## ignoredKeys
+## setignoredKeys
 An array of key codes that will be ignored by the library. By default, the shift key (code 16) is ignored.
 
 ## Example
