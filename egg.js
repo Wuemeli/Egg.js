@@ -37,6 +37,7 @@ class EasterEgg {
   // Add a method to change the ignored keys
   setIgnoredKeys(keys) {
     this.ignoredKeys = keys;
+    
   }
   
   // Add a method to check if a specific egg exists
